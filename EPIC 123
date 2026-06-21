@@ -1,5 +1,10 @@
 print "EPIC"
 
-a = 123
+a = int(input("Digite numero: "))
 
-print (a)
+if a == 123:
+  print ("EPIC", (a))
+
+else:
+  print ("EPIC")
+
